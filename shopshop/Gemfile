@@ -49,5 +49,9 @@ group :development do
   gem 'solidus'
   gem 'solidus_auth_devise'
 
+  # Installing Bootstrap stuff
+
+  gem 'bootstrap-sass'
+
 
 end
