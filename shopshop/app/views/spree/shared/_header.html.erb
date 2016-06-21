@@ -29,6 +29,20 @@
                 <%= nav_tree(taxonomy.root, @taxon, 1) %>
             </li>
           <% end %>
+
     </ul>
+    <ul class='nav navbar-nav navbar-right'>
+        <li>
+            <li id="link-to-cart" data-hook>
+              <noscript>
+                <%= link_to Spree.t(:cart), '/cart' %>
+              </noscript>
+              &nbsp;
+            </li>
+            <script>Spree.fetch_cart('<%= j spree.cart_link_url %>')</script>
+        </li>
+    </ul>
+</div>
+
   </div>
 </nav>
