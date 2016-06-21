@@ -1,0 +1,6 @@
+run
+'bundle install'
+look up solidus bootstrap frontend for the other code to be ran
+
+
+also follow the next solidus youtube tutorial. I think he is going to show how to customize the navbars

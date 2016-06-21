@@ -52,6 +52,9 @@ group :development do
   # Installing Bootstrap stuff
 
   gem 'bootstrap-sass'
+  gem 'pry-rails'
+
+
 
 
 end
